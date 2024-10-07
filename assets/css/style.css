@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    background-color: rgb(212,232,122);
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem .5rem;
+    height: 10dvh;
+    border-radius: 30px;
+}
+.logo {
+    width: 5rem;  
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .btn {
+    padding: .7rem 1.7rem;
+    border-radius: 8px;
+transition-duration: 0.4s;
+font-size: 20px;
+font-family: Arial;
+text-decoration: none;
+    &.active {
+        p {
+            color: black;
+        }
+    }
+  }
+
+  .btn:hover {
+    background-color: bisque;
+    color: white;
+  }
